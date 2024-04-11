@@ -1,7 +1,7 @@
 export default function Button() {
 
   function handleClick() {
-    fetch('http://67.164.191.36:5000/api/hello')
+    fetch('http://localhost:5001/api/hello')
       .then(r => r.json())
       .then(response => console.log(response))
   }
