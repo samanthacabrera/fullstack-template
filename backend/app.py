@@ -1,10 +1,3 @@
-# cd backend
-# pipenv install flask
-# pipenv install flask-cors
-# pipenv shell
-# python app.py
-
-
 from flask import Flask
 from flask_cors import CORS
 
